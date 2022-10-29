@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Es (props) {
+    return React.createElement("svg",props,[React.createElement("rect",{"y":"85.331","fill":"#FFDA44","width":"512","height":"341.337","key":0}),React.createElement("g",{"key":1},[React.createElement("rect",{"y":"85.331","fill":"#D80027","width":"512","height":"113.775","key":0}),React.createElement("rect",{"y":"312.882","fill":"#D80027","width":"512","height":"113.775","key":1})])]);
+}
+
+Es.defaultProps = {"viewBox":"0 85.333 512 341.333"};
+
+module.exports = Es;
+
+Es.default = Es;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function BurgerBlue (props) {
+    return React.createElement("svg",props,[React.createElement("rect",{"y":"0.998047","width":"24","height":"2","fill":"#2DC5FA","key":0}),React.createElement("rect",{"y":"6.99805","width":"24","height":"2","fill":"#2DC5FA","key":1}),React.createElement("rect",{"y":"12.998","width":"24","height":"2","fill":"#2DC5FA","key":2})]);
+}
+
+BurgerBlue.defaultProps = {"width":"24","height":"15","viewBox":"0 0 24 15","fill":"none"};
+
+module.exports = BurgerBlue;
+
+BurgerBlue.default = BurgerBlue;

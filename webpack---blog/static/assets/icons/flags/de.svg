@@ -1,0 +1,11 @@
+var React = require('react');
+
+function De (props) {
+    return React.createElement("svg",props,[React.createElement("desc",{"key":0},"Flag of Germany"),React.createElement("rect",{"id":"black_stripe","width":"5","height":"3","y":"0","x":"0","fill":"#000","key":1}),React.createElement("rect",{"id":"red_stripe","width":"5","height":"2","y":"1","x":"0","fill":"#D00","key":2}),React.createElement("rect",{"id":"gold_stripe","width":"5","height":"1","y":"2","x":"0","fill":"#FFCE00","key":3})]);
+}
+
+De.defaultProps = {"viewBox":"0 0 5 3"};
+
+module.exports = De;
+
+De.default = De;

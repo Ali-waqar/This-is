@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Nl (props) {
+    return React.createElement("svg",props,[React.createElement("rect",{"fill":"#21468B","width":"9","height":"6","key":0}),React.createElement("rect",{"fill":"#FFF","width":"9","height":"4","key":1}),React.createElement("rect",{"fill":"#AE1C28","width":"9","height":"2","key":2})]);
+}
+
+Nl.defaultProps = {"viewBox":"0 0 9 6"};
+
+module.exports = Nl;
+
+Nl.default = Nl;

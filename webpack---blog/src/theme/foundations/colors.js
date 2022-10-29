@@ -1,0 +1,76 @@
+export default {
+    bunker: {
+        100: '#2D2F31',
+        10: '#E7E8E8',
+        active: '#151617',
+        hover: '#212224',
+        disabled: '#2D2F3133',
+    },
+    black: '#1E2434',
+    ghostWhite: '#FAFBFF',
+    white: '#FFFFFF',
+    whiteAlpha: {
+        100: 'rgba(255, 255, 255, 1)',
+        80: 'rgba(255, 255, 255, 0.8)',
+        60: 'rgba(255, 255, 255, 0.6)',
+        5: 'rgba(255, 255, 255, 0.05)',
+    },
+    darkBlue: {
+        100: '#212353',
+        80: '#4D4F75',
+        72: '#686E7E',
+        64: '#717291',
+        40: '#A6A7BA',
+        20: '#D3D3DD',
+        8: '#EDEDF1',
+    },
+    denim: {
+        5: '#F4F5F6',
+        100: '#2D354C',
+    },
+    electricBlue: {
+        100: '#2DC5FA',
+        10: '#EAF9FF',
+        active: '#00ABF2',
+        hover: '#00B4FF',
+        disabled: '#ABE7FD',
+    },
+    green: {
+        100: '#008B9C',
+        20: '#CCE8EB',
+        10: '#E5F3F5',
+    },
+    purple: {
+        100: '#564CFF',
+        40: '#BBB7FF',
+        20: '#DDDBFF',
+        10: '#EEEDFF',
+    },
+    orange: {
+        100: '#F49102',
+        20: '#F49102',
+        10: '#FEF4E6',
+        active: '#E08502',
+        hover: '#EB8B02',
+        disabled: '#F4910233',
+    },
+    yellow: {
+        100: '#FFD26F',
+        20: '#FFEDC5',
+        10: '#FFF6E2',
+    },
+    lille: {
+        100: '#B5C1E5',
+        80: '#C3CDEA',
+        40: '#E0E5F3',
+    },
+    critical: {
+        100: '#EC3A35',
+        80: '#EF615D',
+        10: '#fdebeb',
+    },
+    linkedinBlue: '#2867B2',
+    coral: {
+        100: '#E57373',
+    },
+};

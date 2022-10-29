@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ArrowRight (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M10.3256 1.8119C9.87719 1.36352 9.15023 1.36352 8.70185 1.8119L1.97116 8.54258C1.95092 8.56019 1.93114 8.57862 1.91188 8.59789L1.83855 8.67122C1.42398 9.08579 1.39272 9.73851 1.74476 10.189C1.77395 10.2265 1.80579 10.2627 1.84029 10.2972L1.91362 10.3705C1.92038 10.3773 1.9272 10.3839 1.93408 10.3905L8.7001 17.1565C9.14848 17.6049 9.87545 17.6049 10.3238 17.1565L10.3972 17.0832C10.8455 16.6348 10.8455 15.9078 10.3972 15.4594L4.42279 9.48507L10.3989 3.50896C10.8473 3.06058 10.8473 2.33361 10.3989 1.88523L10.3256 1.8119Z","fill":"#1E2434"}));
+}
+
+ArrowRight.defaultProps = {"width":"18","height":"18","viewBox":"0 0 18 18","fill":"none"};
+
+module.exports = ArrowRight;
+
+ArrowRight.default = ArrowRight;

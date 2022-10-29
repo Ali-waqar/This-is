@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Fr (props) {
+    return React.createElement("svg",props,[React.createElement("rect",{"width":"3","height":"2","fill":"#ED2939","key":0}),React.createElement("rect",{"width":"2","height":"2","fill":"#fff","key":1}),React.createElement("rect",{"width":"1","height":"2","fill":"#002395","key":2})]);
+}
+
+Fr.defaultProps = {"viewBox":"0 0 3 2"};
+
+module.exports = Fr;
+
+Fr.default = Fr;

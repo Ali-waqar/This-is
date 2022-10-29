@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Cross (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M9.45455 8L16 1.45455L14.5455 0L8 6.54545L1.45455 0L0 1.45455L6.54545 8L0 14.5455L1.45455 16L8 9.45455L14.5455 16L16 14.5455L9.45455 8Z","fill":"#2D354C"}));
+}
+
+Cross.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16","fill":"none"};
+
+module.exports = Cross;
+
+Cross.default = Cross;

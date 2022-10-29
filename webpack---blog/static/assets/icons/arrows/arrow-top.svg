@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ArrowTop (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M12.8125 7.48C12.5625 7.74 12.1518 7.74 11.9375 7.48L8.61607 3.98857L8.61607 13.85C8.61607 14.2029 8.33036 14.5 7.99107 14.5C7.65179 14.5 7.36607 14.2214 7.36607 13.85L7.36607 3.98857L4.0625 7.48C3.8125 7.74 3.4375 7.74 3.1875 7.48C2.9375 7.22 2.9375 6.83 3.1875 6.57L7.99107 1.5L12.8125 6.60714C13.0625 6.83 13.0625 7.25714 12.8125 7.48Z","fill":"#2D354C"}));
+}
+
+ArrowTop.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16","fill":"none"};
+
+module.exports = ArrowTop;
+
+ArrowTop.default = ArrowTop;
